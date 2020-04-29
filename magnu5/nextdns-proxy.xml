@@ -5,10 +5,7 @@
   <Category>Network</Category>
   <Name>nextdns-proxy</Name>
   <Description>
-    Block ads, trackers and malicious websites on all your devices. Get in-depth analytics about your Internet traffic. Protect your privacy and bypass censorship. Shield your kids from adult content. Try it now for free.
-    /config This is where nextdns will store it's configuration file, database and logs.
-    Documentation:
-    https://nextdns.io/faq
+    Block ads, trackers and malicious websites on all your devices. Get in-depth analytics about your Internet traffic. Protect your privacy and bypass censorship. Shield your kids from adult content. Try it now for free. Documentation: https://nextdns.io/faq
   </Description>
   <Overview>
     The next-generation DNS service.
