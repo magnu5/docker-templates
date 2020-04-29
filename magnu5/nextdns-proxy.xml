@@ -18,7 +18,7 @@
   <Support></Support>
   <Registry>https://hub.docker.com/r/magnust/nextdns-proxy</Registry>
   <GitHub>https://www.github.com/magnu5/nextdns-proxy</GitHub>
-  <Repository>magnu5/nextdns-proxy</Repository>
+  <Repository>magnust/nextdns-proxy</Repository>
   <Project>https://nextdns.io</Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
