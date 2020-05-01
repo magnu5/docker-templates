@@ -45,6 +45,11 @@
       <ContainerDir>/var/RoonServer</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/music</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
   </Data>
   <Icon>https://raw.githubusercontent.com/magnu5/docker-templates/master/magnu5/images/roon-server.png</Icon>
   <ExtraParams></ExtraParams>
