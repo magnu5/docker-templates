@@ -3,12 +3,12 @@
   <TemplateURL>https://raw.githubusercontent.com/magnu5/docker-templates/master/magnu5/AdGuardHome.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>Network</Category>
-  <Name>AdGuardHome</Name>
+  <Name>AdGuard-Home</Name>
   <Description>
     Network-wide ads and trackers blocking DNS server https://adguard.com/adguard-home.html
   </Description>
   <Overview>
-    Network-wide ads and trackers blocking DNS serve.
+    Network-wide ads and trackers blocking DNS server.
   </Overview>
   <Support></Support>
   <Registry>https://hub.docker.com/r/adguard/adguardhome</Registry>
@@ -28,6 +28,51 @@
       <Port>
         <HostPort>53</HostPort>
         <ContainerPort>53</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>67</HostPort>
+        <ContainerPort>67</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>67</HostPort>
+        <ContainerPort>67</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>68</HostPort>
+        <ContainerPort>68</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>68</HostPort>
+        <ContainerPort>6</ContainerPort>
+        <Protocol>udp</Protocol>
+      </port>
+      <Port>
+        <HostPort>80</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>  
+      <Port>
+        <HostPort>443</HostPort>
+        <ContainerPort>443</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>853</HostPort>
+        <ContainerPort>853</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>853</HostPort>
+        <ContainerPort>853</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>3000</HostPort>
+        <ContainerPort>3000</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
