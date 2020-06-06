@@ -5,10 +5,10 @@
   <Category>Network</Category>
   <Name>AdGuardHome</Name>
   <Description>
-    Network-wide ads & trackers blocking DNS server https://adguard.com/adguard-home.html
+    Network-wide ads and trackers blocking DNS server https://adguard.com/adguard-home.html
   </Description>
   <Overview>
-    Network-wide ads & trackers blocking DNS serve.
+    Network-wide ads and trackers blocking DNS serve.
   </Overview>
   <Support></Support>
   <Registry>https://hub.docker.com/r/adguard/adguardhome</Registry>
