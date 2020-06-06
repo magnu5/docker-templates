@@ -47,7 +47,7 @@
       </Port>
       <Port>
         <HostPort>68</HostPort>
-        <ContainerPort>6</ContainerPort>
+        <ContainerPort>68</ContainerPort>
         <Protocol>udp</Protocol>
       </port>
       <Port>
