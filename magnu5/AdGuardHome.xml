@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <TemplateURL>https://raw.githubusercontent.com/magnu5/docker-templates/master/magnu5/AdGuardHome.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>Network</Category>
+  <Name>AdGuardHome</Name>
+  <Description>
+    Network-wide ads & trackers blocking DNS server https://adguard.com/adguard-home.html
+  </Description>
+  <Overview>
+    Network-wide ads & trackers blocking DNS serve.
+  </Overview>
+  <Support></Support>
+  <Registry>https://hub.docker.com/r/adguard/adguardhome</Registry>
+  <GitHub>https://github.com/AdguardTeam/AdguardHome</GitHub>
+  <Repository>adguard/adguardhome</Repository>
+  <Project>https://adguard.com/</Project>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+    <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>53</HostPort>
+        <ContainerPort>53</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>53</HostPort>
+        <ContainerPort>53</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>UMASK</Name>
+      <Value>000</Value>
+    </Variable>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/opt/adguardhome/conf</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/opt/adguardhome/work</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Icon>https://raw.githubusercontent.com/magnu5/docker-templates/master/magnu5/images/AdGuard.svg.png</Icon>
+  <ExtraParams></ExtraParams>
+</Containers>
