@@ -49,12 +49,7 @@
         <HostPort>68</HostPort>
         <ContainerPort>68</ContainerPort>
         <Protocol>udp</Protocol>
-      </Port>
-      <Port>
-        <HostPort>8282</HostPort>
-        <ContainerPort>8282</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>  
+      </Port> 
       <Port>
         <HostPort>443</HostPort>
         <ContainerPort>443</ContainerPort>
