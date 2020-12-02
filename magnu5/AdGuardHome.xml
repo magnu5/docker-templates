@@ -52,7 +52,7 @@
       </Port>
       <Port>
         <HostPort>80</HostPort>
-        <ContainerPort>80</ContainerPort>
+        <ContainerPort>8282</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>  
       <Port>
