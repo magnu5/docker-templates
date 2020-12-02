@@ -51,7 +51,7 @@
         <Protocol>udp</Protocol>
       </Port>
       <Port>
-        <HostPort>80</HostPort>
+        <HostPort>8282</HostPort>
         <ContainerPort>80</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>  
