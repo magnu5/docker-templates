@@ -37,7 +37,7 @@
   <Data>
     <Volume>
       <HostDir>/mnt/user/appdata/roon-server</HostDir>
-      <ContainerDir>/var/RoonServer</ContainerDir>
+      <ContainerDir>/var/roon</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
