@@ -51,6 +51,6 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Icon>https://raw.githubusercontent.com/magnu5/docker-templates/master/magnu5/images/roon-server.png</Icon>
+  <Icon>https://raw.githubusercontent.com/magnu5/docker-templates/master/magnu5/images/roon.png</Icon>
   <ExtraParams></ExtraParams>
 </Containers>
